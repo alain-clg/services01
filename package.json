@@ -1,0 +1,25 @@
+{
+  "name": "services01",
+  "version": "1.0.0",
+  "description": "mon premier exemple de services Web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alain-clg/services01.git"
+  },
+  "author": "Alain Pilon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alain-clg/services01/issues"
+  },
+  "homepage": "https://github.com/alain-clg/services01#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13"
+  }
+}
